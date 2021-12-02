@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1400px;
+    height: 3320px; 
+    margin: auto;
+}
+
+.container{
+     position: absolute; 
+ 
+     
+}
+ 
+
+/* navbar_menu */
+.navbar_menu{
+    position: absolute;
+    width: 1400px;
+    height: 60px;
+    top: 0px;
+  
+    background: #373A3C;
+    border-radius: 4px;
+}
+
+.navbar_img_logo{
+    
+position: absolute;
+width: 96px;
+height: 29px;
+left: 163px;
+top: 15px;
+}
+
+.nav_game{
+    position: absolute;
+    width: 72px;
+    height: 17px;
+    left: 546.98px;
+    top: 21px;   
+
+    font-family: HelveticaNeue;
+font-size: 28px;
+line-height: 16px;
+color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav_consoles{
+    position: absolute;
+width: 86px;
+height: 17px;
+left: 643px;
+top: 21px;
+
+font-family: HelveticaNeue;
+font-size: 28px;
+line-height: 16px;
+color: #FFFFFF;
+}
+
+.nav_community{
+    position: absolute;
+width: 83px;
+height: 17px;
+left: 757px;
+top: 21px;
+
+font-family: HelveticaNeue;
+font-size: 28px;
+line-height: 16px;
+color: #FFFFFF;
+}
+
+.nav_line{
+    position: absolute;
+width: 209.8px;
+height: 38px;
+left: 934px;
+top: 11px;
+
+font-family: HelveticaNeue;
+font-size:16px;
+line-height: 21px;
+
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+.logo_user{
+    position: absolute;
+width: 117px;
+height: 20px;
+left: 1199.98px;
+top: 21px;
+
+font-family: HelveticaNeue;
+font-size: 16px;
+line-height: 16px;
+
+color: #FFFFFF;
+}   
+
+.user{
+    position: absolute;
+width: 20px;
+height: 20px;
+left: -19.98px;
+top: 0px;
+}
+
+/* STAR */
+.star{
+    position: absolute;
+width: 1400px;
+height: 644px;
+left: 0px;
+top: 60px;
+background-image:url(../img/star.png) ;
+}
+
+.watch{
+    position: absolute;
+
+right: 434px;
+top: 406px;
+
+
+}
+
+.explore{
+    position: absolute;
+ 
+right: 273px;
+top: 406px;
+ 
+}
+
+.star_text{
+    position: absolute;
+height: 43px;
+top :206px;
+right: 412px;
+font-family: HelveticaNeue;
+font-size: 36px;
+line-height: 42px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.star_text_2{
+    position: absolute;
+height: 29px;
+top :243px;
+right: 438px;
+font-family: HelveticaNeue;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+/* MENU */
+.menu{
+    position: absolute;
+width: 1400px;
+height: 865px;
+left: 0px;
+top: 704px;
+background-image: url(../img/Rectangle.png);
+}
+
+.icon_xbox{
+    position: absolute;
+width: 63px;
+height: 64px;
+left: 669px;
+top: 64px;
+}
+
+.menu_text{
+    position: absolute;
+height: 57px;
+right: 543px;
+top: 144px;
+
+font-family: HelveticaNeue;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.menu_text_2{
+    position: absolute;
+height: 43px;
+ 
+right: 475px;
+top: 198px;
+
+font-family: HelveticaNeue;
+font-size: 36px;
+line-height: 42px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+.xbox_one{
+    position: absolute;
+    width: 320px;
+    height: 420px;
+   left: 162px;
+ top: 282px;
+    background: #FFFFFF;
+}    
+
+.xbox_one_img{
+    position: absolute;
+width: 318px;
+height: 180px;
+left: 1px;
+top: 1px;
+}
+
+.menu_text_3{
+    position: absolute;
+height: 21px;
+left: 22px;
+top:203px;
+
+font-family: HelveticaNeue;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #435766;
+}
+
+.menu_text_4{
+    position: absolute;
+height: 58px;
+left: 22px;
+top: 237px;
+
+font-family: HelveticaNeue;
+font-size: 24px;
+line-height: 28px;
+
+color: #435766;
+}
+
+.menu_primary{
+    position: absolute;
+left: 21px;
+bottom:27px;
+}
+
+.mixer{
+    position: absolute;
+    width: 320px;
+    height: 420px;
+    left:546px ; 
+    top:283px;
+    background: #FFFFFF;      
+}
+
+.menu_mixer{
+    position: absolute;
+    width: 209px;
+    height: 61px;
+    top: 53px;
+    left: 54px;
+}
+
+.mixer_text{
+    position: absolute;
+height: 21px;
+left:21px;
+top: 203px;
+
+font-family: HelveticaNeue;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #435766;
+}
+
+.mixer_text_2{
+    position: absolute;
+    height: 58px;
+    left: 21px;
+    top:237px;
+    
+    font-family: HelveticaNeue;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color : #435766;
+}
+
+.mixer_button{
+    position: absolute;
+    left: 21px;
+    bottom:27px;
+
+}
+
+.gold_game{
+    position: absolute;
+    width: 320px;
+    height: 420px;
+    top: 283px;
+    right: 159px;
+    background: #FFFFFF;  
+}
+
+.gold_img{
+    position: absolute;
+    width: 200px;
+    height: 113.64px;
+    margin-left: 60px;
+    margin-top: 34px;
+}
+
+.gold_text{
+    position: absolute;
+height: 21px;
+ 
+left: 20px;
+top: 203px;
+
+font-family: HelveticaNeue;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #435766;
+}
+
+.gold_text_2{
+    position: absolute;
+height: 58px;
+right: 20px;
+
+top: 237px;
+
+font-family: HelveticaNeue;
+font-size: 24px;
+line-height: 28px;
+
+color: #435766;
+}
+
+.gold_button{
+    position: absolute;
+    left: 21px;
+    top: 333px;
+
+}
+
+/* mini_foto */
+.mini_foto{
+ 
+    width: 1400px;
+    height: 880px;
+    background-image: url(../img/Rectangle_1.png);
+    margin-top: 1569px;
+}
+
+/* play */
+.play{
+    position: absolute;
+    background-image: url(../img/play.png);
+    width: 1400px;
+    height: 480px;
+    top:2449px;
+}
+
+.play_text{
+    position: absolute;
+    height: 57px;
+top: 114px;
+left: 167px;
+
+font-family: HelveticaNeue;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+.play_text_2{
+    position: absolute;
+    width: 533px;
+height: 57px;
+top: 180px;
+left: 167px;
+right: 700px;
+
+font-family: HelveticaNeue;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+
+.play_button{
+    position: absolute;
+ height: 57px;
+ top: 275px;
+
+ left: 166px;
+
+font-family: HelveticaNeue;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+
+.play_button_2{
+    position: absolute;
+height: 58px;
+left: 388px; 
+top: 275px;
+
+
+font-family: HelveticaNeue;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+
+/* footer */
+footer{
+position: absolute;
+width: 1400px;
+height: 395px;
+left: 0px;
+top: 2929px;
+background: #373A3C;
+border-radius: 4px;
+}
+
+.footer_xbox{
+    font-family: HelveticaNeue;
+font-size: 18px;
+line-height: 21px;
+
+color: #7DD42F;
+
+    margin-top: 59px;
+
+}
+
+.footer_xbox_1{
+ 
+ font-family: HelveticaNeue;
+ font-size: 14px;
+ line-height: 16px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+ display: block;
+  margin-bottom: 29px;
+  margin-top: 29px;
+}
+
+.footer_content{
+       width: 155px;
+       height: 200px; 
+       margin-left: 165px;
+       margin-bottom: 29px;
+       display: inline-block;
+}
+
+.footer_content_2{
+     width: 155px;
+     height: 200px;
+margin-left: 220px;
+
+margin-bottom: 29px;
+display: inline-block;
+}
+
+.footer_content_3{
+    
+    margin-bottom:29px;
+    
+    font-family: HelveticaNeue;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.footer_developer{
+    font-family: HelveticaNeue;
+font-size: 18px;
+line-height: 21px;
+
+color: #7DD42F;
+margin-bottom: 34px;
+}
+
+.follow{
+    position: absolute;
+    width: 91px;
+    height: 70px;
+    margin-top:58px;   
+    right: 389px;
+display: inline-block;
+}
+
+.follow_text{
+    font-family: HelveticaNeue;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #7DD42F;
+
+margin-bottom: 29px;
+}
+
+.social{
+width: 19px;
+width: 19px;    
+
+}
+
+.fb{
+    width: 11px;
+    height: 20px;
+
+}
+
+.tw{
+width: 21px;
+height: 18px;
+margin-right:10px ;
+margin-left: 10px;
+}
+
+.avtor{
+    position: absolute;
+    color:white;
+    margin-top: 70px;
+    font-size: 35px;
+   line-height: 4px;
+   text-align: center;
+left: 500px;
+
+}
